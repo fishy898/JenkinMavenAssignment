@@ -23,6 +23,7 @@ public class JdbcMaven {
 			myStmt = myConn.createStatement();			
 			
 			//query members
+			System.out.println("Jenkin did this!");
 			System.out.println("\n --Query members-- \n ");
 			myRs = myStmt.executeQuery("select * from employees");
 			while (myRs.next()) 
